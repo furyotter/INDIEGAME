@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+#sectionone {
+  height: 100%;
+  overflow: hidden;
+}
+
+.bg img {
+  width: 110vw;
+  height: 110vh;
+}
+
+.cloud{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin-left: 75%;
+  margin-top: -650px;
+  z-index: 1;
+}
+
+.cloud img {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  max-width: 20%;
+  z-index: -1;
+  margin-top: 0px;
+  z-index: 1;
+  
+
+}
+
+.text img {
+  display: block; /* 将图片变成块级元素，占据整行 */
+  margin: auto; /* 自动水平居中 */
+  margin-top: -3%;
+  margin-right: 10px;
+  max-width: 60%; /* 图片最大宽度为其原始宽度 */
+  max-height: 60%; /* 图片最大高度为其原始高度 */
+  z-index: 0;
+ 
+}
+
+  
+.windmill  {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin-left: 5%;
+  margin-top: -30px;
+}
+
+.body {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  max-width: 30%;
+  z-index: -1;
+  margin-top: 5px;
+ 
+}
+.rotate {
+  max-width: 40%;
+  position: fixed;
+  bottom: 20%;
+  left: -1%;
+  animation: spin 2s linear infinite;
+  transform-origin: center center; /* 将旋转中心点移动到图片中心点 */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.fore {
+  position: relative; /* 使得图片相对于容器进行定位 */ 
+  width: 100%;
+  height: 100%;
+}
+.fore img {
+  max-width: 25%;
+  z-index: 3;
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+
+}
+
+.mid1 {
+  position: relative; /* 使得图片相对于容器进行定位 */ 
+  width: 100%;
+  height: 100%;
+}
+.mid1 img {
+  max-width: 10%;
+  z-index: 6;
+  position: absolute;
+  bottom: 25%;
+  right: 25%;
+
+}
+
+.mid2 {
+  position: relative; /* 使得图片相对于容器进行定位 */ 
+  width: 100%;
+  height: 100%;
+}
+.mid2 img {
+  max-width: 8%;
+  z-index: 4;
+  position: absolute;
+  bottom: 35%;
+  right: 50%;
+
+}
+
+.mid3 {
+  position: relative; /* 使得图片相对于容器进行定位 */ 
+  width: 100%;
+  height: 100%;
+}
+.mid3 img {
+  max-width: 8%;
+  z-index: 4;
+  position: absolute;
+  bottom: 20%;
+  right: 40%;
+
+}
+
+.mid4 {
+  position: relative; /* 使得图片相对于容器进行定位 */ 
+  width: 100%;
+  height: 100%;
+}
+.mid4 img {
+  max-width: 8%;
+  z-index: 4;
+  position: absolute;
+  bottom: 20%;
+  right: 35%;
+
+}
+
